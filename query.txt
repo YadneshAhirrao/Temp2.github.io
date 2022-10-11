@@ -1,0 +1,29 @@
+group: UIBK - R, S, T
+description: Tables from and for the lecture [Databases: Foundations, Data Models and System Concepts - University of Innsbruck](http://dbis-informatik.uibk.ac.at/249-0-VO-Datenbanksysteme.html) chapter 3 
+
+employee = {
+	person_name:string, street:string, city:string
+	'yash'            , 'mj'         , 'nanded'   
+	'ketan'           , 'gb'         , 'pune'     
+	'mahesh'          , 'mgm'        , 'akola'    
+	'yadnesh'         , 'sr'         , 'jalgaon'  
+	'shreyash'        , 'pc'         , 'shirdi'   
+}
+
+works = {
+	persone_name:string, company_name:string, salary:number
+	'yash'             , 'tcs'              , 100020       
+	'ketan'            , 'wipro'            , 120000       
+	'mahesh'           , 'rsl'              , 100000       
+	'yadnesh'          , 'google'           , 300000       
+	'shreyash'         , 'sws'              , 100019       
+}
+
+T = {
+	company_name:string, city:string
+	'tcs'              , 'hyd'      
+	'wipro'            , 'delhi'    
+	'rsl'              , 'pune'     
+	'google'           , 'mumbai'   
+	'sws'              , 'nanded'   
+}
