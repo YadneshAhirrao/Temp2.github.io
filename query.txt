@@ -1,6 +1,4 @@
-group: UIBK - R, S, T
-description: Tables from and for the lecture [Databases: Foundations, Data Models and System Concepts - University of Innsbruck](http://dbis-informatik.uibk.ac.at/249-0-VO-Datenbanksysteme.html) chapter 3 
-
+group: Rao
 employee = {
 	person_name:string, street:string, city:string
 	'yash'            , 'mj'         , 'nanded'   
